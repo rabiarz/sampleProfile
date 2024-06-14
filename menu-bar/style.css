@@ -1,0 +1,37 @@
+*{
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+
+
+#box {
+  background-color: black;
+  overflow: hidden;
+  height: 80px;
+  width: 100%;
+}
+
+.BLOG a {
+  float: left;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 80px;
+  font-size: bold;
+}
+
+.BLOG a:hover {
+  background-color: #04aa6d;
+  color: black;
+}
+
+a.active {
+  background-color: #04aa6d;
+  color: white;
+  transition: all .5s;
+
+}
